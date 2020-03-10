@@ -3,13 +3,13 @@ button{
   background-color: Transparent;
   color: #6AF700;
   border-color: #6AF700;
-  width: 50vw;
+  width: auto;
   height: 10vh;
   margin-top: 5vh;
   border-radius: 25px;
-  font-size: 2em;
+  font-size: 3vw;
   font-weight: bold;
-   font-style: oblique;
+  font-style: oblique;
 }
 
 div{
@@ -20,5 +20,21 @@ div{
 }
 
 button:hover{
-  opacity: .2;
+  background-color: #6AF700;
+  color: #00574B;
+}
+
+
+@media (min-width: 640px)  {
+  .buttonContainer {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  button{
+    text-align: center;
+    width: 15vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }
