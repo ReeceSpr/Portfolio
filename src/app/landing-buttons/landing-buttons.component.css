@@ -1,4 +1,13 @@
 button{
   outline-color: #6AF700;
   background-color: Transparent;
+  color: #6AF700;
+  border-color: #6AF700
+}
+
+div{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
