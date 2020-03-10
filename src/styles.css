@@ -17,7 +17,7 @@ body{
   background-size: cover;
 }
 
-svg{
+svg, img{
   height: 50px;
   width: 50px;
 }
