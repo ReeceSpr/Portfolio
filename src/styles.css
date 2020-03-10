@@ -10,7 +10,18 @@ h1, h2, p {
 }
 
 body{
-  background-image: url(https://raw.githubusercontent.com/ReeceSpr/Portfolio/master/src/app/assets/img/bg.jpg);
+  background-image: url(https://raw.githubusercontent.com/ReeceSpr/Portfolio/master/src/app/assests/img/bg.jpg);
   width: 100vw;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+svg{
+  height: 50px;
+  width: 50px;
+}
+
+a:hover{
+  opacity: 0.5;
 }
