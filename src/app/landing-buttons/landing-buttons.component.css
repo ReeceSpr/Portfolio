@@ -2,7 +2,14 @@ button{
   outline-color: #6AF700;
   background-color: Transparent;
   color: #6AF700;
-  border-color: #6AF700
+  border-color: #6AF700;
+  width: 50vw;
+  height: 10vh;
+  margin-top: 5vh;
+  border-radius: 25px;
+  font-size: 2em;
+  font-weight: bold;
+   font-style: oblique;
 }
 
 div{
@@ -10,4 +17,8 @@ div{
   margin-left: auto;
   margin-right: auto;
   
+}
+
+button:hover{
+  opacity: .2;
 }
