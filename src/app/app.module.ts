@@ -8,7 +8,7 @@ import { HeadingComponent } from './heading/heading.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeadingComponent, BackgroundComponent ],
+  declarations: [ AppComponent, HelloComponent, HeadingComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
