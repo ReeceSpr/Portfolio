@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heading.component.css']
 })
 export class HeadingComponent implements OnInit {
-  mobile=false;
   constructor() { }
 
   ngOnInit() {

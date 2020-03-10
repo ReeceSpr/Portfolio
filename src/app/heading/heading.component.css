@@ -4,7 +4,7 @@ h1{
 }
 
 @media screen and (max-width: 600px) {
-  .subHeading {
+  .h2 {
     visibility: hidden;
     clear: both;
     float: left;

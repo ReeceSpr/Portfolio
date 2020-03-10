@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeadingComponent } from './heading/heading.component';
-import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
