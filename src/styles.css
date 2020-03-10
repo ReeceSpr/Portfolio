@@ -17,11 +17,3 @@ body{
   background-size: cover;
 }
 
-svg, img{
-  height: 50px;
-  width: 50px;
-}
-
-a:hover{
-  opacity: 0.5;
-}

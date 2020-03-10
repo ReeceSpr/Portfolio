@@ -1,15 +1,17 @@
 h1, h2{
   text-align: center;
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
   font-size: 40px;
 }
 
-@media screen and (max-width: 600px) {
-  .h2 {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
+@media (max-width: 640px)  {
+  h2 {
     display: none;
   }
 }
