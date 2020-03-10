@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { HeadingComponent } from './heading/heading.component';
 import { IconsComponent } from './icons/icons.component';
 import { ButtonComponent } from './button/button.component';
+import { LandingButtonsComponent } from './landing-buttons/landing-buttons.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeadingComponent, IconsComponent, ButtonComponent ],
+  declarations: [ AppComponent, HelloComponent, HeadingComponent, IconsComponent, ButtonComponent, LandingButtonsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
