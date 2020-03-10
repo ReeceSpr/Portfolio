@@ -6,7 +6,7 @@ svg, img, a{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 7.5vh;
+  
 }
 
 a:hover{
@@ -22,4 +22,10 @@ div{
   margin-left: auto;
   margin-right: auto;
   width: 77vw;
+}
+
+@media (max-width: 640px)  {
+  svg, img, a{
+    margin-top: 7.5vh;
+  }
 }

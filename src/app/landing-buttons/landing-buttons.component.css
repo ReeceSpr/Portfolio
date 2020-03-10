@@ -3,9 +3,9 @@ button{
   background-color: Transparent;
   color: #6AF700;
   border-color: #6AF700;
-  width: auto;
+  width: 44vw;
   height: 10vh;
-  margin-top: 10vh;
+  margin-top: 2vh;
   border-radius: 25px;
   font-size: 3vw;
   font-weight: bold;
@@ -32,6 +32,7 @@ button:hover{
   }
 
   button{
+    margin-top: 10vh;
     text-align: center;
     width: 15vw;
     margin-left: 5vw;
