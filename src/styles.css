@@ -9,11 +9,23 @@ h1, h2, p {
   color: var(--main-acent-color);
 }
 
-body{
+#Landing{
   background-image: url(https://raw.githubusercontent.com/ReeceSpr/Portfolio/master/src/app/assests/img/bg.jpg);
+}
+
+#Project{
+  
+}
+
+.section{
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  margin :0px;
+  display: inline-block;
 }
 
+body{
+  margin: 0px;
+}
