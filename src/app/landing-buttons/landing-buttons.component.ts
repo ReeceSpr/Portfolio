@@ -8,9 +8,14 @@ import { btnNames } from '../buttonsName';
 })
 export class LandingButtonsComponent implements OnInit {
   buttonNames = btnNames;
+  
   constructor() { }
 
   ngOnInit() {
+  }
+
+  smoothScroll(buttonValue){
+    window.location.href = '#'.concat(buttonValue);
   }
 
 }

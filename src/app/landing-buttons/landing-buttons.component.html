@@ -1,5 +1,5 @@
  <div>
  <div class="buttonContainer" *ngFor="let buttonNames of buttonNames; index as buttonNamesID">
-    <button>{{buttonNames.name}}</button>
+    <button (click)="smoothScroll(buttonNames.name)">{{buttonNames.name}}</button>
   </div>
   </div>
