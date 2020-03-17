@@ -33,7 +33,7 @@ h1, h2, p {
 #Projects{
   position:absolute;
   height:110%;
-  top:100%;
+  top: 100%;
   bottom:200%;
   background-image: url(https://raw.githubusercontent.com/ReeceSpr/Portfolio/master/src/app/assests/img/ProjectsBackgroundMobile.jpg);
 }

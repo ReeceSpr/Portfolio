@@ -4,8 +4,12 @@ p{
   margin-right: auto;
   margin-top: 20vh;
   font-size: 3vh;
+  transition: all 1s ease 500ms;
 }
 
+p:hover{
+  transform: translate(0px, -100px);
+}
 
 @media (max-width: 640px)  {
   p{

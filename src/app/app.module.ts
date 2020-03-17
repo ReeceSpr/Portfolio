@@ -9,9 +9,10 @@ import { IconsComponent } from './icons/icons.component';
 import { LandingButtonsComponent } from './landing-buttons/landing-buttons.component';
 import { ScrolldownComponent } from './scrolldown/scrolldown.component';
 import { ContentMobileComponent } from './content-mobile/content-mobile.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule],
   declarations: [ AppComponent, HelloComponent, HeadingComponent, IconsComponent, LandingButtonsComponent, ScrolldownComponent, ContentMobileComponent ],
   bootstrap:    [ AppComponent ]
 })
