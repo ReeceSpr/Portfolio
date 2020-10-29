@@ -1,9 +1,10 @@
+Progress: 🟢 Designed, 🟠 Developed, ⚫️ Polished.
 # reecespragg
 
 Portfolio Coded and Designed from Scratch.
 
-Technolgies:
 
+Technolgies:
 GitHub
 Angular
 HTML
